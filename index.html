@@ -481,12 +481,12 @@
             <h1 class="type-target">ANTIFAKE-VOICE</h1>
             <p class="hero-desc type-target" data-type-speed="12">Ứng dụng phát hiện giọng nói do AI tạo hoặc sao chép — chạy hoàn toàn trên máy của bạn, không tải bản ghi lên đâu cả.</p>
             <div class="hero-actions">
-              <button class="button" type="button" data-toast="Bản tải xuống đang được chuẩn bị.">Tải ứng dụng <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></button>
+              <a class="button" href="https://github.com/sususer-byte/website-antifakevoice/releases/latest/download/VoiceGuard.exe" download="VoiceGuard.exe" aria-label="Tải VoiceGuard cho Windows, dung lượng 101,57 MiB">Tải ứng dụng <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></a>
               <a class="button outline" href="#about">Xem cách hoạt động <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m9 18 6-6-6-6"/></svg></a>
             </div>
             <div class="hero-stats two" aria-label="Thông tin ứng dụng">
               <div class="stat"><strong><span class="count" data-target="100">0</span>%</strong><span>xử lý offline</span></div>
-              <div class="stat"><strong>473 BYTE</strong><span>dung lượng ứng dụng</span></div>
+              <div class="stat"><strong data-app-size>101,57 MiB</strong><span>dung lượng ứng dụng</span></div>
             </div>
           </div>
           <div class="hero-visual" aria-label="Bản mô phỏng phát hiện dấu hiệu bất thường trong giọng nói">
@@ -577,7 +577,7 @@
           <div class="section-heading"><p class="eyebrow">05 — FAQ</p><h2 class="type-target">Câu hỏi thường gặp.</h2></div>
           <div class="faq-wrap">
             <div class="faq-item"><button class="faq-question" aria-expanded="true" aria-controls="faq-a1" id="faq-q1"><span>Tệp của tôi có bị gửi lên máy chủ không?</span><i aria-hidden="true"></i></button><div class="faq-answer" id="faq-a1" role="region" aria-labelledby="faq-q1"><div><p>Không. Toàn bộ phân tích chạy cục bộ trên thiết bị; ứng dụng không cần Internet để quét, không tải tệp và không thu thập nội dung của bạn. Chỉ khi bạn chủ động bật cập nhật mô hình thì ứng dụng mới kết nối mạng, và khi đó cũng không gửi dữ liệu cá nhân.</p></div></div></div>
-            <div class="faq-item"><button class="faq-question" aria-expanded="false" aria-controls="faq-a2" id="faq-q2"><span>Ứng dụng nặng bao nhiêu, có tốn tài nguyên không?</span><i aria-hidden="true"></i></button><div class="faq-answer" id="faq-a2" role="region" aria-labelledby="faq-q2"><div><p>Gói ứng dụng có dung lượng 473 BYTE. ANTIFAKE-VOICE được thiết kế để chạy trên máy không có GPU rời; nếu có GPU, quá trình phân tích bản ghi dài sẽ nhanh hơn.</p></div></div></div>
+            <div class="faq-item"><button class="faq-question" aria-expanded="false" aria-controls="faq-a2" id="faq-q2"><span>Ứng dụng nặng bao nhiêu, có tốn tài nguyên không?</span><i aria-hidden="true"></i></button><div class="faq-answer" id="faq-a2" role="region" aria-labelledby="faq-q2"><div><p>Gói ứng dụng có dung lượng <span data-app-size>101,57 MiB</span> (chính xác 106.503.746 byte). ANTIFAKE-VOICE được thiết kế để chạy trên máy không có GPU rời; nếu có GPU, quá trình phân tích bản ghi dài sẽ nhanh hơn.</p></div></div></div>
             <div class="faq-item"><button class="faq-question" aria-expanded="false" aria-controls="faq-a3" id="faq-q3"><span>Kết quả phát hiện có đáng tin không?</span><i aria-hidden="true"></i></button><div class="faq-answer" id="faq-a3" role="region" aria-labelledby="faq-q3"><div><p>Không công cụ nào phát hiện chính xác tuyệt đối vì kỹ thuật tổng hợp giọng nói liên tục tiến hoá. ANTIFAKE-VOICE cung cấp mức nghi vấn kèm giải thích để hỗ trợ bạn xác minh bằng nguồn hoặc kênh liên lạc khác, thay vì đưa ra kết luận tuyệt đối.</p></div></div></div>
             <div class="faq-item"><button class="faq-question" aria-expanded="false" aria-controls="faq-a4" id="faq-q4"><span>Nó phân biệt giọng thật với giọng AI như thế nào?</span><i aria-hidden="true"></i></button><div class="faq-answer" id="faq-a4" role="region" aria-labelledby="faq-q4"><div><p>ANTIFAKE-VOICE kiểm tra phổ tần, nhịp điệu, ngữ điệu, độ ổn định của âm sắc và các dấu vết có thể xuất hiện khi giọng nói được tổng hợp hoặc sao chép. Khi tín hiệu chưa đủ rõ, ứng dụng sẽ ghi nhận là chưa chắc chắn để người dùng thẩm định thêm.</p></div></div></div>
             <p class="forum-callout">Còn thắc mắc? <a href="#/forum">Hỏi cộng đồng tại Forum →</a></p>
@@ -620,9 +620,9 @@
       <div class="modal-head"><h2 id="modal-title">Tạo bài viết</h2><button class="icon-btn" id="modal-close" type="button" aria-label="Đóng">×</button></div>
       <form id="post-form">
         <div class="form-group"><label for="post-username">Tên hiển thị</label><input id="post-username" name="username" maxlength="40" minlength="2" autocomplete="nickname" placeholder="Ví dụ: minh_anh" required></div>
-        <div class="form-group"><label for="post-title">Tiêu đề</label><input id="post-title" name="title" maxlength="120" required></div>
+        <div class="form-group"><label for="post-title">Tiêu đề</label><input id="post-title" name="title" minlength="3" maxlength="120" required></div>
         <div class="form-group"><label for="post-flair">Chủ đề</label><select id="post-flair" name="flair"><option>Góp ý</option><option>Nhận xét</option><option>Hỏi đáp</option><option>Chia sẻ</option></select></div>
-        <div class="form-group"><label for="post-content">Nội dung</label><textarea id="post-content" name="content" required></textarea></div>
+        <div class="form-group"><label for="post-content">Nội dung</label><textarea id="post-content" name="content" minlength="3" maxlength="2000" required></textarea></div>
         <p class="form-note" id="storage-note">Chưa kết nối Supabase nên bài viết hiện chỉ tồn tại trong phiên xem thử.</p>
         <button class="button" type="submit">Đăng bài</button>
       </form>
@@ -666,7 +666,7 @@
   <script src="forum-pool.js"></script>
   <script>
     // Cấu hình ứng dụng.
-    const APP_CONFIG = { packageSize: '473 BYTE' };
+    const APP_CONFIG = { downloadUrl: 'https://github.com/sususer-byte/website-antifakevoice/releases/latest/download/VoiceGuard.exe', packageBytes: 106503746, packageSize: '101,57 MiB' };
     // Dán Project URL và anon/publishable key từ Supabase Dashboard vào đây.
     const SUPABASE_CONFIG = {
       url: 'https://lipbkjpefqxowjgnwzhm.supabase.co',
@@ -675,6 +675,12 @@
     const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     const $ = (selector, scope = document) => scope.querySelector(selector);
     const $$ = (selector, scope = document) => [...scope.querySelectorAll(selector)];
+    $$('[data-app-size]').forEach(element => { element.textContent = APP_CONFIG.packageSize; });
+    const appDownloadLink = $('a[download="VoiceGuard.exe"]');
+    if (appDownloadLink) {
+      appDownloadLink.href = APP_CONFIG.downloadUrl;
+      appDownloadLink.download = APP_CONFIG.downloadUrl.split('/').pop();
+    }
 
     const header = $('#site-header');
     const landing = $('#landing-page');
@@ -822,9 +828,25 @@
       event.preventDefault(); location.hash = '#/faq';
     }));
 
+    function requestedPostId() {
+      const match = location.hash.match(/^#\/forum\/post\/(.+)$/);
+      if (!match) return '';
+      try { return decodeURIComponent(match[1]); } catch (_) { return match[1]; }
+    }
+    function revealRequestedPost() {
+      const postId = requestedPostId();
+      if (!postId) return;
+      requestAnimationFrame(() => {
+        const card = [...$$('.post-card')].find(item => item.dataset.id === postId);
+        if (!card) return;
+        card.classList.add('expanded', 'highlight-new');
+        card.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'center' });
+        $('.post-title', card)?.focus({ preventScroll: true });
+      });
+    }
     function route() {
       if (location.hash && !location.hash.startsWith('#/')) return;
-      const isForum = location.hash === '#/forum';
+      const isForum = location.hash === '#/forum' || location.hash.startsWith('#/forum/post/');
       landing.hidden = isForum;
       forum.hidden = !isForum;
       document.body.classList.toggle('forum-mode', isForum);
@@ -836,7 +858,8 @@
       if (!isForum && location.hash === '#/faq') requestAnimationFrame(() => $('#faq').scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth' }));
       if (isForum) {
         renderPosts();
-        if (!forumLoaded) loadForumData();
+        revealRequestedPost();
+        if (!forumLoaded) loadForumData().then(revealRequestedPost);
       }
     }
     window.addEventListener('hashchange', route);
@@ -942,11 +965,13 @@
       { id: 4, flair: 'Góp ý', title: 'Nên báo rõ giới hạn dung lượng trước khi chọn tệp', excerpt: 'Hiển thị định dạng và dung lượng tối đa ngay cạnh ô tải lên sẽ tránh phải thử lại.', user: 'son_beta', age: '15 giờ trước', time: baseTime - 54000000, score: 4, comments: 0, isDemo: true },
       { id: 5, flair: 'Nhận xét', title: 'Báo cáo xuất ra dễ đọc và đủ ý', excerpt: 'Mình gửi cho một người không dùng app, họ vẫn hiểu các mốc nào cần nghe lại.', user: 'bao_review', age: '20 giờ trước', time: baseTime - 72000000, score: 9, comments: 1, isDemo: true }
     ].map(post => ({ ...post, vote: 0 }));
+    const initialDemoPosts = posts.map(post => ({ ...post }));
 
-    const commentsTemplate = [
-      { username: 'beta_thu', content: 'Mình cũng muốn có thao tác nghe lại ngay trên từng mốc, sẽ tiết kiệm khá nhiều thời gian.' },
-      { username: 'tester_07', content: 'Mình dùng hai hôm nay thấy bố cục kết quả dễ đọc, kể cả trên màn hình nhỏ.' }
-    ];
+    commentsByPost = {
+      '1': [{ id: 'demo_1_1', username: 'beta_thu', content: 'Mình cũng muốn có thao tác nghe lại ngay trên từng mốc, sẽ tiết kiệm khá nhiều thời gian.' }],
+      '3': [{ id: 'demo_3_1', username: 'tester_07', content: 'Mình dùng hai hôm nay thấy bố cục kết quả dễ đọc, kể cả trên màn hình nhỏ.' }],
+      '5': [{ id: 'demo_5_1', username: 'mai_beta', content: 'Các mốc cần nghe lại được trình bày khá rõ, gửi báo cáo cho đồng đội rất tiện.' }]
+    };
 
     function supabaseConfigured() {
       return /^https:\/\/.+\.supabase\.co$/i.test(SUPABASE_CONFIG.url.replace(/\/$/, '')) && SUPABASE_CONFIG.anonKey.length > 20;
@@ -975,7 +1000,9 @@
     }
 
     function relativeTime(value) {
-      const seconds = Math.max(0, Math.floor((Date.now() - new Date(value).getTime()) / 1000));
+      const timestamp = new Date(value).getTime();
+      if (!Number.isFinite(timestamp)) return 'không rõ thời gian';
+      const seconds = Math.max(0, Math.floor((Date.now() - timestamp) / 1000));
       if (seconds < 60) return 'vừa xong';
       if (seconds < 3600) return `${Math.floor(seconds / 60)} phút trước`;
       if (seconds < 86400) return `${Math.floor(seconds / 3600)} giờ trước`;
@@ -991,10 +1018,12 @@
         return;
       }
       try {
-        const [remotePosts, remoteComments] = await Promise.all([
+        const [remotePostsResult, remoteCommentsResult] = await Promise.all([
           supabaseRequest('posts?select=*&order=pinned.desc,created_at.desc'),
           supabaseRequest('comments?select=*&order=created_at.asc')
         ]);
+        const remotePosts = Array.isArray(remotePostsResult) ? remotePostsResult : [];
+        const remoteComments = Array.isArray(remoteCommentsResult) ? remoteCommentsResult : [];
         commentsByPost = {};
         remoteComments.forEach(comment => {
           (commentsByPost[comment.post_id] ||= []).push(comment);
@@ -1019,9 +1048,20 @@
         $('#storage-note').textContent = 'Bài viết và bình luận sẽ được lưu công khai trên Supabase.';
         mergeSavedBotPosts();
         renderPosts();
+        revealRequestedPost();
       } catch (error) {
+        const wasUsingSupabase = forumUsingSupabase;
         forumLoaded = false;
         forumUsingSupabase = false;
+        if (wasUsingSupabase) {
+          posts = initialDemoPosts.map(post => ({ ...post }));
+          commentsByPost = {
+            '1': [{ id: 'demo_1_1', username: 'beta_thu', content: 'Mình cũng muốn có thao tác nghe lại ngay trên từng mốc, sẽ tiết kiệm khá nhiều thời gian.' }],
+            '3': [{ id: 'demo_3_1', username: 'tester_07', content: 'Mình dùng hai hôm nay thấy bố cục kết quả dễ đọc, kể cả trên màn hình nhỏ.' }],
+            '5': [{ id: 'demo_5_1', username: 'mai_beta', content: 'Các mốc cần nghe lại được trình bày khá rõ, gửi báo cáo cho đồng đội rất tiện.' }]
+          };
+        }
+        $('#storage-note').textContent = 'Không kết nối được Supabase nên bài viết và bình luận chỉ tồn tại trong phiên xem thử.';
         console.error('Không thể tải dữ liệu Supabase:', error);
         mergeSavedBotPosts();
         renderPosts();
@@ -1032,19 +1072,49 @@
     function escapeHTML(value) {
       return String(value).replace(/[&<>'"]/g, char => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', "'": '&#39;', '"': '&quot;' }[char]));
     }
+    function validateTrimmedInput(input, minimum, message) {
+      const valid = input.value.trim().length >= minimum;
+      input.setCustomValidity(valid ? '' : message);
+      return valid;
+    }
+    async function copyText(value) {
+      try {
+        if (navigator.clipboard?.writeText) {
+          await navigator.clipboard.writeText(value);
+          return true;
+        }
+        const helper = document.createElement('textarea');
+        helper.value = value;
+        helper.style.position = 'fixed';
+        helper.style.opacity = '0';
+        document.body.appendChild(helper);
+        helper.select();
+        const copied = document.execCommand('copy');
+        helper.remove();
+        return copied;
+      } catch (_) {
+        return false;
+      }
+    }
+    function normalizeSearch(value) {
+      return String(value || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/đ/g, 'd').replace(/Đ/g, 'D').toLowerCase();
+    }
+    function postById(value) {
+      return posts.find(item => String(item.id) === String(value));
+    }
     function filteredPosts() {
-      const query = $('#forum-search').value.trim().toLowerCase();
-      let result = posts.filter(post => (currentFilter === 'Tất cả' || post.flair === currentFilter) && (`${post.title} ${post.excerpt}`.toLowerCase().includes(query)));
+      const query = normalizeSearch($('#forum-search').value.trim());
+      let result = posts.filter(post => (currentFilter === 'Tất cả' || post.flair === currentFilter) && normalizeSearch(`${post.title} ${post.excerpt} ${post.user}`).includes(query));
       result.sort((a, b) => {
         if (a.pinned !== b.pinned) return a.pinned ? -1 : 1;
         if (currentSort === 'new') return b.time - a.time;
-        if (currentSort === 'comments') return b.comments - a.comments;
-        return (b.score + b.comments * 2) - (a.score + a.comments * 2);
+        if (currentSort === 'comments') return commentsForPost(b.id).length - commentsForPost(a.id).length;
+        return (b.score + commentsForPost(b.id).length * 2) - (a.score + commentsForPost(a.id).length * 2);
       });
       return result;
     }
     function commentsForPost(postId) {
-      return commentsByPost[postId] || (forumUsingSupabase ? [] : commentsTemplate);
+      return commentsByPost[String(postId)] || [];
     }
     function updateFilterCounts() {
       $$('.filter-btn').forEach(button => {
@@ -1064,8 +1134,10 @@
       updateFilterCounts();
       const data = filteredPosts();
       if (!data.length) { list.innerHTML = '<div class="forum-panel empty-state">Không tìm thấy bài viết phù hợp.</div>'; return; }
-      list.innerHTML = data.map((post, index) => `
-        <article class="forum-panel post-card reveal ${index % 2 ? 'from-right' : ''} visible" data-id="${post.id}">
+      list.innerHTML = data.map((post, index) => {
+        const commentCount = commentsForPost(post.id).length;
+        return `
+        <article class="forum-panel post-card reveal ${index % 2 ? 'from-right' : ''} visible" data-id="${escapeHTML(post.id)}">
           <div class="vote-col">
             <button class="vote-btn up ${post.vote === 1 ? 'active' : ''}" data-vote="1" aria-label="Upvote"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="m6 15 6-6 6 6"/></svg></button>
             <span class="vote-score">${post.score + post.vote}</span>
@@ -1075,24 +1147,26 @@
             <div class="post-meta">${post.pinned ? '<span class="pin">● Đã ghim</span>' : ''}<span class="flair" data-flair="${escapeHTML(post.flair)}">${escapeHTML(post.flair)}</span>${post.isDemo ? '<span class="demo-label">bài thử nghiệm</span>' : ''}<span>u/${escapeHTML(post.user)}</span><span>•</span><span>${escapeHTML(post.age)}</span></div>
             <h2 class="post-title" tabindex="0">${escapeHTML(post.title)}</h2>
             <p class="post-excerpt">${escapeHTML(post.excerpt)}</p>
-            <div class="post-actions"><button class="post-action comment-toggle" type="button">${post.comments} bình luận</button><button class="post-action share-post" type="button">Chia sẻ</button>${deleteControl('post', Boolean(currentUser && post.userId === currentUser.id) || Boolean(post.ownerTokenHash && post.ownerTokenHash === ownerTokenHash))}</div>
+            <div class="post-actions"><button class="post-action comment-toggle" type="button">${commentCount} bình luận</button><button class="post-action share-post" type="button">Chia sẻ</button>${deleteControl('post', Boolean(currentUser && post.userId === currentUser.id) || Boolean(post.ownerTokenHash && post.ownerTokenHash === ownerTokenHash))}</div>
             <div class="comments">
-              <div class="comment-list">${commentsForPost(post.id).length ? commentsForPost(post.id).map(comment => `<div class="comment" data-comment-id="${comment.id || ''}"><strong>u/${escapeHTML(comment.username)}</strong><br>${escapeHTML(comment.content)}${deleteControl('comment', Boolean(currentUser && comment.user_id === currentUser.id) || Boolean(comment.owner_token_hash && comment.owner_token_hash === ownerTokenHash))}</div>`).join('') : '<p class="comment-empty">Chưa có bình luận. Hãy bắt đầu cuộc trò chuyện.</p>'}</div>
-              ${currentUser ? `<form class="comment-form" data-post-id="${post.id}"><input name="username" value="${escapeHTML(currentDisplayName())}" aria-label="Tên hiển thị" readonly><input name="content" maxlength="1000" minlength="2" placeholder="Viết bình luận…" aria-label="Nội dung bình luận" required><button class="button" type="submit">Đăng</button></form>` : '<button class="button outline sign-in-to-comment" type="button">Đăng nhập để bình luận</button>'}
+              <div class="comment-list">${commentsForPost(post.id).length ? commentsForPost(post.id).map(comment => `<div class="comment" data-comment-id="${escapeHTML(comment.id || '')}"><strong>u/${escapeHTML(comment.username)}</strong><br>${escapeHTML(comment.content)}${deleteControl('comment', Boolean(currentUser && comment.user_id === currentUser.id) || Boolean(comment.owner_token_hash && comment.owner_token_hash === ownerTokenHash))}</div>`).join('') : '<p class="comment-empty">Chưa có bình luận. Hãy bắt đầu cuộc trò chuyện.</p>'}</div>
+              ${currentUser ? `<form class="comment-form" data-post-id="${escapeHTML(post.id)}"><input name="username" value="${escapeHTML(currentDisplayName())}" aria-label="Tên hiển thị" readonly><input name="content" maxlength="1000" minlength="2" placeholder="Viết bình luận…" aria-label="Nội dung bình luận" required><button class="button" type="submit">Đăng</button></form>` : '<button class="button outline sign-in-to-comment" type="button">Đăng nhập để bình luận</button>'}
             </div>
           </div>
-        </article>`).join('');
+        </article>`;
+      }).join('');
     }
 
     $('#post-list').addEventListener('click', async event => {
       const card = event.target.closest('.post-card'); if (!card) return;
-      const post = posts.find(item => item.id === Number(card.dataset.id));
+      const post = postById(card.dataset.id);
+      if (!post) return;
       const deletePost = event.target.closest('.delete-post');
       if (deletePost) {
         if (!confirm('Xóa bài viết này? Các bình luận trong bài cũng sẽ bị xóa.')) return;
         deletePost.disabled = true;
         try {
-          if (forumUsingSupabase) {
+          if (forumUsingSupabase && !post.isBot) {
             const deleted = currentUser && post.userId === currentUser.id
               ? await supabaseRequest(`posts?id=eq.${post.id}`, { method: 'DELETE' })
               : await supabaseRequest('rpc/delete_own_post', { method: 'POST', body: { target_id: post.id, raw_token: ownerToken } });
@@ -1114,19 +1188,20 @@
       const deleteComment = event.target.closest('.delete-comment');
       if (deleteComment) {
         if (!confirm('Xóa bình luận này?')) return;
-        const commentId = Number(deleteComment.closest('.comment').dataset.commentId);
+        const commentId = deleteComment.closest('.comment').dataset.commentId;
         deleteComment.disabled = true;
         try {
-          if (forumUsingSupabase) {
-            const comment = commentsForPost(post.id).find(item => Number(item.id) === commentId);
+          if (forumUsingSupabase && !post.isBot) {
+            const numericCommentId = Number(commentId);
+            const comment = commentsForPost(post.id).find(item => Number(item.id) === numericCommentId);
             const deleted = currentUser && comment?.user_id === currentUser.id
-              ? await supabaseRequest(`comments?id=eq.${commentId}`, { method: 'DELETE' })
-              : await supabaseRequest('rpc/delete_own_comment', { method: 'POST', body: { target_id: commentId, raw_token: ownerToken } });
+              ? await supabaseRequest(`comments?id=eq.${numericCommentId}`, { method: 'DELETE' })
+              : await supabaseRequest('rpc/delete_own_comment', { method: 'POST', body: { target_id: numericCommentId, raw_token: ownerToken } });
             if (!deleted || (Array.isArray(deleted) && !deleted.length)) throw new Error('Bạn không có quyền xóa bình luận này.');
             await loadForumData(true);
           } else {
-            commentsByPost[post.id] = commentsForPost(post.id).filter(comment => Number(comment.id) !== commentId);
-            post.comments = Math.max(0, post.comments - 1);
+            commentsByPost[String(post.id)] = commentsForPost(post.id).filter(comment => String(comment.id) !== String(commentId));
+            if (post.isBot) saveBotComments(post.id, commentsByPost[String(post.id)]);
             renderPosts();
           }
           showToast('Đã xóa bình luận.');
@@ -1138,13 +1213,20 @@
         return;
       }
       const voteButton = event.target.closest('[data-vote]');
-      if (voteButton) { const value = Number(voteButton.dataset.vote); post.vote = post.vote === value ? 0 : value; renderPosts(); return; }
+      if (voteButton) {
+        const wasExpanded = card.classList.contains('expanded');
+        const value = Number(voteButton.dataset.vote);
+        post.vote = post.vote === value ? 0 : value;
+        renderPosts();
+        if (wasExpanded) [...$$('.post-card')].find(item => item.dataset.id === String(post.id))?.classList.add('expanded');
+        return;
+      }
       if (event.target.closest('.comment-toggle') || event.target.closest('.post-title')) { card.classList.toggle('expanded'); return; }
       if (event.target.closest('.sign-in-to-comment')) { openAuthModal('login'); return; }
       if (event.target.closest('.share-post')) {
-        const url = `${location.href.split('#')[0]}#/forum`;
-        if (navigator.clipboard) navigator.clipboard.writeText(url).catch(() => {});
-        showToast('Đã sao chép liên kết Forum.');
+        const url = `${location.href.split('#')[0]}#/forum/post/${encodeURIComponent(post.id)}`;
+        const copied = await copyText(url);
+        showToast(copied ? 'Đã sao chép liên kết bài viết.' : 'Không thể sao chép liên kết bài viết trên trình duyệt này.');
       }
     });
     $('#post-list').addEventListener('keydown', event => { if (event.key === 'Enter' && event.target.classList.contains('post-title')) event.target.closest('.post-card').classList.toggle('expanded'); });
@@ -1155,29 +1237,36 @@
       await ensureOwnerIdentity();
       const submitButton = $('button[type="submit"]', form);
       const data = new FormData(form);
-      const postId = Number(form.dataset.postId);
+      const postId = form.dataset.postId;
+      const post = postById(postId);
+      if (!post) return;
+      const contentInput = form.elements.content;
+      const content = String(data.get('content') || '').trim();
+      contentInput.setCustomValidity(content.length >= 2 ? '' : 'Bình luận cần ít nhất 2 ký tự không phải khoảng trắng.');
+      if (!form.reportValidity()) return;
       const payload = {
-        post_id: postId,
+        post_id: post.isBot ? postId : Number(postId),
         username: data.get('username').trim(),
-        content: data.get('content').trim(),
+        content,
         owner_token_hash: ownerTokenHash
       };
       rememberUsername(payload.username);
       submitButton.disabled = true;
       submitButton.textContent = 'Đang lưu…';
       try {
-        if (forumUsingSupabase) {
+        if (forumUsingSupabase && !post.isBot) {
           const created = await supabaseRequest('comments', { method: 'POST', body: payload });
-          (commentsByPost[postId] ||= []).push(created[0]);
+          if (!Array.isArray(created) || !created[0]) throw new Error('Supabase không trả về bình luận vừa tạo.');
+          (commentsByPost[String(postId)] ||= []).push(created[0]);
           showToast('Bình luận đã được lưu trên Supabase.');
         } else {
-          (commentsByPost[postId] ||= [...commentsTemplate]).push({ ...payload, id: Date.now() });
-          showToast('Bình luận chỉ được lưu trong phiên vì chưa kết nối Supabase.');
+          const localComment = { ...payload, id: `local_${Date.now()}`, user_id: currentUser?.id || null, owner_token_hash: ownerTokenHash };
+          (commentsByPost[String(postId)] ||= []).push(localComment);
+          if (post.isBot) saveBotComments(post.id, commentsByPost[String(postId)]);
+          showToast(post.isBot ? 'Bình luận đã được lưu trên trình duyệt này.' : 'Bình luận chỉ được lưu trong phiên vì chưa kết nối Supabase.');
         }
-        const post = posts.find(item => item.id === postId);
-        if (post) post.comments += 1;
         renderPosts();
-        const updatedCard = $(`.post-card[data-id="${postId}"]`);
+        const updatedCard = [...$$('.post-card')].find(item => item.dataset.id === String(postId));
         if (updatedCard) updatedCard.classList.add('expanded');
       } catch (error) {
         console.error('Không thể lưu bình luận:', error);
@@ -1220,6 +1309,10 @@
       const data = new FormData(event.currentTarget);
       const email = data.get('email').trim();
       const password = data.get('password');
+      if (authMode === 'register' && !validateTrimmedInput($('#auth-name'), 2, 'Tên hiển thị cần ít nhất 2 ký tự không phải khoảng trắng.')) {
+        event.currentTarget.reportValidity();
+        return;
+      }
       const submitButton = $('#auth-submit');
       submitButton.disabled = true;
       submitButton.textContent = 'Đang xử lý…';
@@ -1262,11 +1355,19 @@
     });
     $('#post-form').addEventListener('submit', async event => {
       event.preventDefault();
+      const form = event.currentTarget;
+      const validUsername = validateTrimmedInput($('#post-username'), 2, 'Tên hiển thị cần ít nhất 2 ký tự không phải khoảng trắng.');
+      const validTitle = validateTrimmedInput($('#post-title'), 3, 'Tiêu đề cần ít nhất 3 ký tự không phải khoảng trắng.');
+      const validContent = validateTrimmedInput($('#post-content'), 3, 'Nội dung cần ít nhất 3 ký tự không phải khoảng trắng.');
+      if (!validUsername || !validTitle || !validContent) {
+        form.reportValidity();
+        return;
+      }
       await ensureOwnerIdentity();
-      const data = new FormData(event.currentTarget);
+      const data = new FormData(form);
       const payload = { flair: data.get('flair'), title: data.get('title').trim(), excerpt: data.get('content').trim(), username: data.get('username').trim(), owner_token_hash: ownerTokenHash };
       rememberUsername(payload.username);
-      const submitButton = $('button[type="submit"]', event.currentTarget);
+      const submitButton = $('button[type="submit"]', form);
       submitButton.disabled = true;
       submitButton.textContent = 'Đang lưu…';
       currentFilter = 'Tất cả';
@@ -1281,7 +1382,7 @@
           renderPosts();
           showToast('Bài viết chỉ được lưu trong phiên vì chưa kết nối Supabase.');
         }
-        event.currentTarget.reset();
+        form.reset();
         closeModal();
       } catch (error) {
         console.error('Không thể lưu bài viết:', error);
@@ -1323,7 +1424,7 @@
         const raw = localStorage.getItem(ONLINE_STORAGE_KEY);
         if (raw) {
           const parsed = JSON.parse(raw);
-          if (typeof parsed.count === 'number' && parsed.count >= 7 && parsed.nextSwitch) {
+          if (Number.isFinite(parsed.count) && parsed.count >= 7 && parsed.count <= 21 && Number.isFinite(parsed.nextSwitch) && parsed.nextSwitch > 0) {
             return parsed;
           }
         }
@@ -1334,14 +1435,14 @@
     function saveOnlineState(count, nextSwitch) {
       try {
         localStorage.setItem(ONLINE_STORAGE_KEY, JSON.stringify({
-          count: Math.max(7, count),
+          count: Math.min(21, Math.max(7, Number(count) || 7)),
           nextSwitch: nextSwitch
         }));
       } catch (_) {}
     }
 
     function applyOnlineCount(count) {
-      const safeCount = Math.max(7, Number(count) || 7);
+      const safeCount = Math.min(21, Math.max(7, Number(count) || 7));
       const el = $('#online-count');
       if (el) el.textContent = safeCount;
       return safeCount;
@@ -1367,7 +1468,7 @@
       const now = Date.now();
       const state = getStoredOnlineState();
 
-      if (state && state.nextSwitch > now && state.count >= 7) {
+      if (state && state.nextSwitch > now && state.nextSwitch <= now + 300000) {
         applyOnlineCount(state.count);
         const remainingMs = Math.max(1000, state.nextSwitch - now);
         scheduleNextOnlineSwitch(remainingMs);
@@ -1403,7 +1504,8 @@
 
     function getPostedBotIds() {
       try {
-        return JSON.parse(localStorage.getItem(BOT_POSTED_IDS_KEY) || '[]');
+        const value = JSON.parse(localStorage.getItem(BOT_POSTED_IDS_KEY) || '[]');
+        return Array.isArray(value) ? value : [];
       } catch (_) {
         return [];
       }
@@ -1411,7 +1513,17 @@
 
     function getSavedBotPosts() {
       try {
-        return JSON.parse(localStorage.getItem(BOT_POSTS_KEY) || '[]');
+        const value = JSON.parse(localStorage.getItem(BOT_POSTS_KEY) || '[]');
+        if (!Array.isArray(value)) return [];
+        return value
+          .filter(post => post && post.id && typeof post.title === 'string' && typeof post.excerpt === 'string')
+          .map(post => ({
+            ...post,
+            score: Number.isFinite(Number(post.score)) ? Number(post.score) : 1,
+            vote: [-1, 0, 1].includes(Number(post.vote)) ? Number(post.vote) : 0,
+            user: typeof post.user === 'string' ? post.user : 'thanh_vien',
+            flair: ['Góp ý', 'Nhận xét', 'Hỏi đáp', 'Chia sẻ'].includes(post.flair) ? post.flair : 'Hỏi đáp'
+          }));
       } catch (_) {
         return [];
       }
@@ -1419,9 +1531,21 @@
 
     function getSavedBotComments() {
       try {
-        return JSON.parse(localStorage.getItem(BOT_COMMENTS_KEY) || '{}');
+        const value = JSON.parse(localStorage.getItem(BOT_COMMENTS_KEY) || '{}');
+        if (!value || typeof value !== 'object' || Array.isArray(value)) return {};
+        return Object.fromEntries(Object.entries(value).filter(([, comments]) => Array.isArray(comments)));
       } catch (_) {
         return {};
+      }
+    }
+
+    function saveBotComments(postId, comments) {
+      try {
+        const allComments = getSavedBotComments();
+        allComments[String(postId)] = Array.isArray(comments) ? comments : [];
+        localStorage.setItem(BOT_COMMENTS_KEY, JSON.stringify(allComments));
+      } catch (error) {
+        console.warn('Lỗi lưu bình luận bot vào localStorage:', error);
       }
     }
 
@@ -1485,7 +1609,7 @@
 
     function publishRandomBotPost(showNotificationIfInForum = true) {
       const pool = window.FORUM_BOT_POOL || [];
-      if (!pool.length) {
+      if (!Array.isArray(pool) || !pool.length) {
         console.warn('Kho dữ liệu bot chưa được nạp.');
         return null;
       }
@@ -1566,7 +1690,10 @@
 
       const now = Date.now();
       let nextTime = 0;
-      try { nextTime = Number(localStorage.getItem(BOT_NEXT_POST_KEY)) || 0; } catch (_) {}
+      try {
+        const storedNextTime = Number(localStorage.getItem(BOT_NEXT_POST_KEY));
+        nextTime = Number.isFinite(storedNextTime) ? storedNextTime : 0;
+      } catch (_) {}
 
       const savedPosts = getSavedBotPosts();
 
@@ -1637,7 +1764,7 @@
         location.reload();
       },
       setOnlineCount: (val) => {
-        const safe = Math.max(7, Number(val) || 7);
+        const safe = Math.min(21, Math.max(7, Number(val) || 7));
         applyOnlineCount(safe);
         saveOnlineState(safe, Date.now() + 180000);
         return safe;

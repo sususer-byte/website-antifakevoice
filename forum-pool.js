@@ -8041,7 +8041,7 @@ window.FORUM_BOT_POOL = [
   {
     "id": 769,
     "flair": "Chia sẻ",
-    "title": "Dung lượng bộ cài 473 BYTE - kiến trúc hoạt động như thế nào?",
+    "title": "Dung lượng bộ cài 101,57 MiB - kiến trúc hoạt động như thế nào?",
     "excerpt": "Mình rất tò mò vì sao gói ứng dụng lại siêu nhẹ như vậy trong khi mô hình nhận diện giọng nói thường nặng hàng trăm MB?",
     "username": "quoc_bao_ai",
     "score": 14,
@@ -8050,7 +8050,7 @@ window.FORUM_BOT_POOL = [
   {
     "id": 770,
     "flair": "Chia sẻ",
-    "title": "Dung lượng bộ cài 473 BYTE - kiến trúc hoạt động như thế nào? - Bài #2",
+    "title": "Dung lượng bộ cài 101,57 MiB - kiến trúc hoạt động như thế nào? - Bài #2",
     "excerpt": "Mình rất tò mò vì sao gói ứng dụng lại siêu nhẹ như vậy trong khi mô hình nhận diện giọng nói thường nặng hàng trăm MB?",
     "username": "kim_ngan",
     "score": 19,
@@ -8059,7 +8059,7 @@ window.FORUM_BOT_POOL = [
   {
     "id": 771,
     "flair": "Chia sẻ",
-    "title": "Dung lượng bộ cài 473 BYTE - kiến trúc hoạt động như thế nào? - Bài #3",
+    "title": "Dung lượng bộ cài 101,57 MiB - kiến trúc hoạt động như thế nào? - Bài #3",
     "excerpt": "Mình rất tò mò vì sao gói ứng dụng lại siêu nhẹ như vậy trong khi mô hình nhận diện giọng nói thường nặng hàng trăm MB?",
     "username": "xuan_bach",
     "score": 13,
@@ -8068,7 +8068,7 @@ window.FORUM_BOT_POOL = [
   {
     "id": 772,
     "flair": "Chia sẻ",
-    "title": "Dung lượng bộ cài 473 BYTE - kiến trúc hoạt động như thế nào? - Bài #4",
+    "title": "Dung lượng bộ cài 101,57 MiB - kiến trúc hoạt động như thế nào? - Bài #4",
     "excerpt": "Mình rất tò mò vì sao gói ứng dụng lại siêu nhẹ như vậy trong khi mô hình nhận diện giọng nói thường nặng hàng trăm MB?",
     "username": "hong_phuc",
     "score": 6,
@@ -8077,7 +8077,7 @@ window.FORUM_BOT_POOL = [
   {
     "id": 773,
     "flair": "Chia sẻ",
-    "title": "Dung lượng bộ cài 473 BYTE - kiến trúc hoạt động như thế nào? - Bài #5",
+    "title": "Dung lượng bộ cài 101,57 MiB - kiến trúc hoạt động như thế nào? - Bài #5",
     "excerpt": "Mình rất tò mò vì sao gói ứng dụng lại siêu nhẹ như vậy trong khi mô hình nhận diện giọng nói thường nặng hàng trăm MB?",
     "username": "ngoc_mai",
     "score": 14,
@@ -8086,7 +8086,7 @@ window.FORUM_BOT_POOL = [
   {
     "id": 774,
     "flair": "Chia sẻ",
-    "title": "Dung lượng bộ cài 473 BYTE - kiến trúc hoạt động như thế nào? - Bài #6",
+    "title": "Dung lượng bộ cài 101,57 MiB - kiến trúc hoạt động như thế nào? - Bài #6",
     "excerpt": "Mình rất tò mò vì sao gói ứng dụng lại siêu nhẹ như vậy trong khi mô hình nhận diện giọng nói thường nặng hàng trăm MB?",
     "username": "hong_phuc",
     "score": 23,
@@ -8095,7 +8095,7 @@ window.FORUM_BOT_POOL = [
   {
     "id": 775,
     "flair": "Chia sẻ",
-    "title": "Dung lượng bộ cài 473 BYTE - kiến trúc hoạt động như thế nào? - Bài #7",
+    "title": "Dung lượng bộ cài 101,57 MiB - kiến trúc hoạt động như thế nào? - Bài #7",
     "excerpt": "Mình rất tò mò vì sao gói ứng dụng lại siêu nhẹ như vậy trong khi mô hình nhận diện giọng nói thường nặng hàng trăm MB?",
     "username": "trong_hieu",
     "score": 23,
@@ -8104,7 +8104,7 @@ window.FORUM_BOT_POOL = [
   {
     "id": 776,
     "flair": "Chia sẻ",
-    "title": "Dung lượng bộ cài 473 BYTE - kiến trúc hoạt động như thế nào? - Bài #8",
+    "title": "Dung lượng bộ cài 101,57 MiB - kiến trúc hoạt động như thế nào? - Bài #8",
     "excerpt": "Mình rất tò mò vì sao gói ứng dụng lại siêu nhẹ như vậy trong khi mô hình nhận diện giọng nói thường nặng hàng trăm MB?",
     "username": "cong_thanh",
     "score": 1,
@@ -8113,7 +8113,7 @@ window.FORUM_BOT_POOL = [
   {
     "id": 777,
     "flair": "Chia sẻ",
-    "title": "Dung lượng bộ cài 473 BYTE - kiến trúc hoạt động như thế nào? - Bài #9",
+    "title": "Dung lượng bộ cài 101,57 MiB - kiến trúc hoạt động như thế nào? - Bài #9",
     "excerpt": "Mình rất tò mò vì sao gói ứng dụng lại siêu nhẹ như vậy trong khi mô hình nhận diện giọng nói thường nặng hàng trăm MB?",
     "username": "thu_thao_ai",
     "score": 11,
